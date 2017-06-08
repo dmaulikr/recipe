@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 6.5.0
+  environment:
+      NODE_ENV: test
+dependencies:
+  override:
+    - yarn install
+test:
+  override:
+    - yarn test
